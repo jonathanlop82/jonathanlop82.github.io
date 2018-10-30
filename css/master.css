@@ -78,7 +78,9 @@ nav ul li a:hover {
 
 section {
   background: white;
-  padding: 40px;
+  padding: 100px;
+  padding-top: 40px;
+  padding-bottom: 40px;
   margin: 0px;
 }
 
@@ -101,4 +103,5 @@ footer p a {
 
 section p {
   text-align: justify;
+  line-height: 40px;
 }
