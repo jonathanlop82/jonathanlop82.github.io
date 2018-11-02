@@ -1,3 +1,8 @@
+body {
+  background: dimgrey;
+}
+
+
 nav {
   background: cyan;
   padding: 0px;
@@ -19,10 +24,14 @@ img{
 
 .contenedor {
     background-color: dimgrey;
+    /*
     padding-top: 0px;
     padding-right: 20%;
     padding-bottom: 0px;
     padding-left: 20%;
+    */
+    margin-right: 20%;
+    margin-left: 20%;
 }
 
 header {
