@@ -30,8 +30,8 @@ img{
     padding-bottom: 0px;
     padding-left: 20%;
     */
-    margin-right: 20%;
-    margin-left: 20%;
+    margin-right: 15%;
+    margin-left: 15%;
 }
 
 header {
@@ -58,12 +58,13 @@ h2{
   text-align: center;
   font-size: 40px;
   letter-spacing: 4px;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Courier New", Courier, monospace;
 }
 
 h3 {
   font-size: 15px;
   text-align: center;
+  font-family: "Courier New", Courier, monospace;
 }
 
 
@@ -79,10 +80,14 @@ nav ul li a {
     text-align: center;
     padding: 16px;
     text-decoration: none;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bold;
 }
 
 nav ul li a:hover {
   background-color: #111111;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
 }
 
 section {
@@ -93,6 +98,11 @@ section {
   margin: 0px;
 }
 
+section p {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 18px;
+}
+
 footer {
   background: #333333;;
   padding: 40px;
@@ -100,13 +110,19 @@ footer {
 
 }
 
-footer p {
-  text-align: center;
-  color: DodgerBlue;
+footer table {
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
 }
 
-footer p a {
-  color: DodgerBlue;
+footer table tr{
+  align-items: center;
+}
+
+footer table tr td a img {
+  width: 50px;
+  height: 50px;
 }
 
 
