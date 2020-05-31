@@ -1,10 +1,7 @@
-body {
-  background: dimgrey;
-}
+
 
 
 nav {
-  background: cyan;
   padding: 0px;
 }
 
@@ -13,32 +10,34 @@ nav {
   width: 100%;
 }
 
+.hero {
+  position: relative;
+  display: flex;
+  text-align: center;
+}
 
-img{
-  display:block;
+.nombre {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.hero img{
+  display: block;
   margin:auto;
   width: 100%;
   height: auto;
-
 }
 
-.contenedor {
+/* .contenedor {
     background-color: dimgrey;
-    /*
-    padding-top: 0px;
-    padding-right: 20%;
-    padding-bottom: 0px;
-    padding-left: 20%;
-    */
-    margin-right: 15%;
-    margin-left: 15%;
-}
+   
+    margin-right: 5%;
+    margin-left: 5%;
+} */
 
-header {
-  background: white;
-  padding: 40px;
-  margin-bottom: 0px;
-}
 
 nav ul {
   text-decoration: none;
@@ -58,7 +57,7 @@ h2{
   text-align: center;
   font-size: 40px;
   letter-spacing: 4px;
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Acme", Courier, monospace;
 }
 
 h3 {
@@ -80,28 +79,49 @@ nav ul li a {
     text-align: center;
     padding: 16px;
     text-decoration: none;
-    font-family: "Courier New", Courier, monospace;
-    font-weight: bold;
+    font-family: "Questrial", Courier, monospace;
 }
 
 nav ul li a:hover {
   background-color: #111111;
-  font-family: "Courier New", Courier, monospace;
-  font-weight: bold;
+  font-family: "Questrial", Courier, monospace;
 }
+
+
+
 
 section {
   background: white;
   padding: 100px;
   padding-top: 40px;
   padding-bottom: 40px;
-  margin: 0px;
+  margin: 60px;
+}
+
+section div {
+  display: flex;
+  margin-bottom: 100px;
+  align-items: center;
+}
+
+
+section img {
+    width: 20%;
+    height: auto;
+    float: left;
+    margin: 0px 40px;
+    border-radius: 15px;
 }
 
 section p {
-  font-family: "Courier New", Courier, monospace;
-  font-size: 18px;
+  font-family: 'Yanone Kaffeesatz', Courier, monospace;
+  font-size: 20px;
+  margin: 20px 40px;
+  align-content: center;
 }
+
+
+
 
 footer {
   background: #333333;;
@@ -126,7 +146,3 @@ footer table tr td a img {
 }
 
 
-section p {
-  text-align: justify;
-  line-height: 40px;
-}
