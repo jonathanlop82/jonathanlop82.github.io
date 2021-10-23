@@ -58,6 +58,7 @@ h2{
   font-size: 40px;
   letter-spacing: 4px;
   font-family: "Acme", Courier, monospace;
+  color: white;
 }
 
 h3 {
@@ -91,11 +92,11 @@ nav ul li a:hover {
 
 
 section {
-  background: white;
-  padding: 100px;
+  background: #252429;
+  padding: 400px;
   padding-top: 40px;
   padding-bottom: 40px;
-  margin: 60px;
+  margin: 0px;
 }
 
 section div {
@@ -105,26 +106,29 @@ section div {
 }
 
 
+
+
 section img {
-    width: 20%;
-    height: auto;
-    float: left;
-    margin: 0px 40px;
-    border-radius: 15px;
+  width: 300px;
+  height: 300px;
+  float: left;
+  margin: 0px 40px;
+  border-radius: 50%;
 }
 
 section p {
   font-family: 'Yanone Kaffeesatz', Courier, monospace;
-  font-size: 20px;
+  font-size: 25px;
   margin: 20px 40px;
   align-content: center;
+  color: white;
 }
 
 
 
 
 footer {
-  background: #333333;;
+  background: #111111;;
   padding: 40px;
   margin: 0px;
 
